@@ -156,7 +156,7 @@ Untuk informasi lebih lanjut dan pendaftaran, calon peserta dapat mengunjungi we
             {/* Article Body */}
             <div className="prose prose-lg max-w-none mb-12">
               {currentArticle.content ? (
-                currentArticle.content.split('\n\n').map((paragraph, index) => (
+                currentArticle.content.split('\n\n').map((paragraph: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
                   <p key={index} className="text-gray-700 leading-relaxed mb-6">
                     {paragraph}
                   </p>
