@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Users, TreePine, Heart, Leaf, Mountain, Shield } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { TreePine, Heart, Leaf, Mountain, Shield } from 'lucide-react';
+
 
 const HeroSection = () => {
   const [mousePosition, setMousePosition] = useState({ x: 50, y: 50 });
@@ -206,7 +207,7 @@ const HeroSection = () => {
       </button>
 
       {/* Custom CSS */}
-      <style jsx>{`
+      <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0) rotate(0deg); }
           50% { transform: translateY(-20px) rotate(5deg); }
