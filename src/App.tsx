@@ -15,6 +15,9 @@ import Donasi from './pages/Donasi';
 import Kontak from './pages/Kontak';
 import FAQ from './pages/FAQ';
 
+// Import NewsDetail component
+import NewsDetail from './pages/NewsDetail';
+
 // New Tentang submenu pages
 import ProfilYayasan from './pages/tentang/ProfilYayasan';
 import SejarahLatarBelakang from './pages/tentang/SejarahLatarBelakang';
@@ -50,12 +53,14 @@ function App() {
             {/* Publikasi submenu routes */}
             <Route path="/publikasi/dokumen" element={<Publikasi />} />
             <Route path="/publikasi/berita" element={<Berita />} />
+            <Route path="/publikasi/berita/:id" element={<NewsDetail />} />
             <Route path="/publikasi/galeri" element={<Galeri />} />
             <Route path="/publikasi/faq" element={<FAQ />} />
             
             {/* Redirect old routes to new publikasi structure */}
             <Route path="/publikasi" element={<Publikasi />} />
             <Route path="/berita" element={<Berita />} />
+            <Route path="/berita/:id" element={<NewsDetail />} />
             <Route path="/galeri" element={<Galeri />} />
             <Route path="/faq" element={<FAQ />} />
             

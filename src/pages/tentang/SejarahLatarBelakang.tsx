@@ -37,7 +37,7 @@ const SejarahLatarBelakang: React.FC = () => {
     {
       year: '2019',
       title: 'Dekade Pertama',
-      description: 'Merayakan 10 tahun dengan pencapaian 5,000+ penerima manfaat dan 25,000+ pohon ditanam. Launching program kesehatan masyarakat.',
+      description: 'Merayakan 10 tahun dengan pencapaian 5,000+ penerima manfaat dan 167,286+ pohon ditanam. Launching program kesehatan masyarakat.',
       milestone: '10 tahun berkarya'
     },
     {

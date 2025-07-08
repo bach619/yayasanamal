@@ -231,10 +231,10 @@ const HeroSection = () => {
           }`}
         >
           {[
-            { number: '25,000+', label: 'Hektar Dilindungi', icon: '🌲' },
+            { number: '167,286+', label: 'Hektar Dilindungi', icon: '🌲' },
             { number: '100,000+', label: 'Pohon Ditanam', icon: '🌱' },
             { number: '1,500+', label: 'Keluarga Diberdayakan', icon: '👨‍👩‍👧‍👦' },
-            { number: '500+', label: 'Hektar Gaharu', icon: '🌿' }
+            { number: '12', label: 'Program Unggulan', icon: '🌿' }
           ].map((stat, index) => (
             <div key={index} className="text-center group hover:scale-110 transition-transform duration-300 p-2 sm:p-5 lg:p-4">
               <div className="text-xl sm:text-3xl lg:text-4xl mb-1 sm:mb-4">{stat.icon}</div>

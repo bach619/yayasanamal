@@ -6,8 +6,8 @@ const ProfilYayasan: React.FC = () => {
   const highlights = [
     {
       icon: TreePine,
-      title: '25,000+',
-      subtitle: 'Hektar Hutan Dilindungi',
+      title: '167,286+',
+      subtitle: 'Hektar Perhutanan Sosial',
       description: 'Kawasan hutan adat dan ekosistem yang berhasil dilestarikan melalui perhutanan sosial'
     },
     {
@@ -18,13 +18,13 @@ const ProfilYayasan: React.FC = () => {
     },
     {
       icon: Leaf,
-      title: '500+',
-      subtitle: 'Hektar Gaharu',
+      title: '12',
+      subtitle: 'Program Unggulan',
       description: 'Luas kebun gaharu yang dikembangkan sebagai hasil hutan bukan kayu unggulan'
     },
     {
       icon: Shield,
-      title: '15+',
+      title: '2+',
       subtitle: 'Tahun Pengalaman',
       description: 'Dedikasi konsisten dalam pelestarian hutan dan pemberdayaan masyarakat Dayak'
     }
@@ -55,8 +55,8 @@ const ProfilYayasan: React.FC = () => {
     {
       category: 'Perhutanan Sosial',
       facts: [
-        'Mengelola 25,000+ hektar hutan adat bersama masyarakat Dayak',
-        'Mengembangkan 500+ hektar kebun gaharu berkelanjutan',
+        'Mengelola 167,286+ hektar Perhutanan Sosial bersama masyarakat Dayak',
+        'Mengembangkan 500+ hektar kebun aren berkelanjutan',
         'Melindungi 10+ spesies flora fauna endemik Kalimantan'
       ]
     },

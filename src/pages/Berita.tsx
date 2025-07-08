@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 import images from '../assets/images';
 
@@ -62,6 +63,7 @@ export const news = [
 
 const Berita: React.FC = () => {
   const featuredNews = {
+    id: 1,
     title: 'Launching Program Beasiswa AMAL 2025',
     excerpt: 'Yayasan AMAL dengan bangga mengumumkan pembukaan program beasiswa terbesar dalam sejarah yayasan untuk 200 siswa berprestasi dari keluarga kurang mampu di seluruh Indonesia.',
     content: 'Program beasiswa ini mencakup bantuan biaya pendidikan penuh, buku, seragam, dan bimbingan akademik selama masa studi. Pendaftaran dibuka mulai 1 Februari hingga 31 Maret 2025.',
@@ -133,10 +135,13 @@ const Berita: React.FC = () => {
                 {featuredNews.content}
               </p>
 
-              <button className="btn-primary inline-flex items-center w-fit">
+              <Link 
+                to={`/publikasi/berita/${featuredNews.id}`}
+                className="btn-primary inline-flex items-center w-fit"
+              >
                 Baca Selengkapnya
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -208,10 +213,13 @@ const Berita: React.FC = () => {
                     {article.excerpt}
                   </p>
 
-                  <button className="text-emerald-600 font-medium inline-flex items-center hover:text-emerald-700 transition-colors">
+                  <Link 
+                    to={`/publikasi/berita/${article.id}`}
+                    className="text-emerald-600 font-medium inline-flex items-center hover:text-emerald-700 transition-colors"
+                  >
                     Baca Selengkapnya
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </button>
+                  </Link>
                 </div>
               </article>
             ))}

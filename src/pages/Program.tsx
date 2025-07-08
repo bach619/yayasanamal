@@ -188,7 +188,7 @@ export const programs = [
         'Edukasi masyarakat tentang bahaya kebakaran',
         'Koordinasi dengan aparat penegak hukum'
       ],
-      impact: 'Telah melindungi 25,000 hektar hutan dan mencegah 50+ kasus kebakaran',
+      impact: 'Telah melindungi 167,286 hektar hutan dan mencegah 50+ kasus kebakaran',
       color: 'red',
       category: 'Perlindungan'
     },
@@ -374,14 +374,14 @@ const Program: React.FC = () => {
               
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
                 {[
-                  { value: '25,000+', label: 'Hektar Dilindungi', color: 'emerald' },
+                  { value: '167,286+', label: 'Hektar Dilindungi', color: 'emerald' },
                   { value: '100,000+', label: 'Pohon Ditanam', color: 'green' },
                   { value: '1,500+', label: 'Keluarga Diberdayakan', color: 'teal' },
                   { value: '12', label: 'Program Unggulan', color: 'blue' }
                 ].map((stat, index) => (
                   <div
                     key={index}
-                    className={`bg-white/80 backdrop-blur-lg p-8 rounded-2xl shadow-xl border border-white/20 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl ${
+                    className={`bg-white/80 backdrop-blur-lg p-8 rounded-2xl shadow-xl border border-white/20 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl text-center flex flex-col items-center justify-center ${
                       activeProgram % 4 === index ? 'ring-4 ring-emerald-300 scale-105' : ''
                     }`}
                   >

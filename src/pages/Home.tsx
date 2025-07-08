@@ -211,7 +211,11 @@ const Home: React.FC = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {news.map((article, index) => (
-              <article key={index} className="card overflow-hidden group">
+              <Link 
+                key={index} 
+                to={`/publikasi/berita/${index === 0 ? 1 : allNews[index - 1]?.id || index + 1}`}
+                className="card overflow-hidden group hover:shadow-lg transition-shadow"
+              >
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={article.image.src}
@@ -226,7 +230,7 @@ const Home: React.FC = () => {
                   </h3>
                   <p className="text-gray-600 leading-relaxed">{article.excerpt}</p>
                 </div>
-              </article>
+              </Link>
             ))}
           </div>
           

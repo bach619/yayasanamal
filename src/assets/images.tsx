@@ -8,7 +8,7 @@ export const images = {
   
   // About Images  
   teamPhoto: {
-    src: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800",
+    src: "https://i.ibb.co/7JbVgpdB/foto1jpg.jpg",
     alt: "Tim Yayasan AMAL bersama masyarakat dalam kegiatan pemberdayaan"
   },
   
