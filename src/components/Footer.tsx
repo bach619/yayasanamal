@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -26,9 +26,9 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-sm leading-relaxed">
               Yayasan AMAL berkomitmen membangun masa depan berkelanjutan melalui 
-              program pendidikan, lingkungan, dan pemberdayaan masyarakat Indonesia.
+              program pendidikan, lingkungan, dan pemberdayaan masyarakat Indonesia di Perhutanan Sosial.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -73,9 +73,9 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-emerald-400 mt-1 flex-shrink-0" />
                 <p className="text-sm">
-                  Jl. RTA Milono No. 123<br />
-                  Palangka Raya, 73112<br />
-                  Kalimantan Tengah, Indonesia
+                  Jl. Kwitang Raya No. 13 Gd. Graha Ketut Mas Agung Lt.4<br />
+                  Jakarta Pusat, 73112<br />
+                  Indonesia
                 </p>
               </div>
               <div className="flex items-center space-x-3">
