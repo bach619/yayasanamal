@@ -54,7 +54,7 @@ const TentangKami: React.FC = () => {
               Tentang Yayasan AMAL
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Antang Patahu Mahaga Lewu (AMAL) berdiri dengan misi menciptakan perubahan 
+              AntangPatahu Mahaga Lewu (AMAL) berdiri dengan misi menciptakan perubahan 
               positif berkelanjutan melalui program-program yang berdampak langsung 
               bagi masyarakat Indonesia.
             </p>
@@ -77,7 +77,7 @@ const TentangKami: React.FC = () => {
                 ribuan penerima manfaat di seluruh Indonesia.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Nama "Antang Patahu Mahaga Lewu" berasal dari bahasa Dayak yang bermakna 
+                Nama "AntangPatahu Mahaga Lewu" berasal dari bahasa Dayak yang bermakna 
                 "Bersama Membangun Negeri". Filosofi ini menjadi landasan setiap program 
                 yang kami jalankan - bahwa perubahan besar dimulai dari kolaborasi dan 
                 kepedulian bersama.

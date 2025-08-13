@@ -69,7 +69,7 @@ const Home: React.FC = () => {
                 Tentang Yayasan AMAL
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Antang Patahu Mahaga Lewu (AMAL) adalah yayasan yang berdedikasi untuk 
+                AntangPatahu Mahaga Lewu (AMAL) adalah yayasan yang berdedikasi untuk 
                 pengelolaan hutan berkelanjutan dan pemberdayaan masyarakat melalui 
                 program-program inovatif di bidang kehutanan, konservasi, dan ekonomi hijau.
               </p>

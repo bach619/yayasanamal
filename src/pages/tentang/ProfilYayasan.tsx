@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Users, Award, Globe, TreePine, Leaf, Shield } from 'lucide-react';
+import { Heart, Users, TreePine, Leaf, Shield } from 'lucide-react';
 import images from '../../assets/images';
 
 const ProfilYayasan: React.FC = () => {
@@ -88,7 +88,7 @@ const ProfilYayasan: React.FC = () => {
               Profil Yayasan AMAL
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              Yayasan Antang Patahu Mahaga Lewu (AMAL) merupakan organisasi nirlaba yang berkomitmen 
+              Yayasan AntangPatahu Mahaga Lewu (AMAL) merupakan organisasi yang berkomitmen 
               untuk menjaga kelestarian alam dan memberdayakan masyarakat lokal, khususnya masyarakat 
               Dayak di Kalimantan Tengah.
             </p>
@@ -96,10 +96,10 @@ const ProfilYayasan: React.FC = () => {
               <div className="bg-emerald-600 p-3 rounded-lg">
                 <TreePine className="h-8 w-8 text-white" />
               </div>
-              <div className="text-left">
+              {/* <div className="text-left">
                 <h2 className="font-bold text-2xl text-gray-900">AMAL</h2>
-                <p className="text-emerald-600 font-medium">Antang Patahu Mahaga Lewu</p>
-              </div>
+                <p className="text-emerald-600 font-medium">AntangPatahu Mahaga Lewu</p>
+              </div> */}
             </div>
           </div>
         </div>
@@ -140,9 +140,7 @@ const ProfilYayasan: React.FC = () => {
                 </p>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Nama "Antang Patahu Mahaga Lewu" berasal dari bahasa Dayak yang bermakna "Bersama 
-                  Membangun Negeri", mencerminkan filosofi kolaborasi dan gotong royong dalam setiap 
-                  program yang kami jalankan bersama masyarakat adat.
+                  Nama "AntangPatahu Mahaga Lewu" berasal dari bahasa Dayak Ngaju Kalimantan Tengah yang bermakna "Burung Elang Keramat dan perkasa yang menjaga tanah Dayak Kalimantan Tengah", mencerminkan filosofi "Mengatang Utus Mahaga Panatau Lewu" yang bermakna mengangkat harkat dan martabat dengan menjaga kekayan sumber daya alam Tanah Dayak bahwa Yayasan ini berupaya untuk menjaga dan mensejahterakan mitra kerja yaitu masyakarat Dayak di kalimantan Tengah.
                 </p>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
@@ -160,7 +158,7 @@ const ProfilYayasan: React.FC = () => {
                 className="rounded-2xl shadow-xl w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-emerald-600 text-white p-6 rounded-xl shadow-lg">
-                <p className="text-2xl font-bold">2009</p>
+                <p className="text-2xl font-bold">2025</p>
                 <p className="text-sm">Tahun Berdiri</p>
               </div>
             </div>

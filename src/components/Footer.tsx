@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
               <div className="flex-shrink-0">
                 <img 
                   src="https://i.ibb.co/g8nGrhX/logo6.png" 
-                  alt="Yayasan AMAL - Antang Patahu Mahaga Lewu" 
+                  alt="Yayasan AMAL - AntangPatahu Mahaga Lewu" 
                   className="h-12 w-auto"
                 />
               </div>
               <div className="flex flex-col">
               <span className="text-lg sm:text-xl font-bold text-white-900 leading-tight">AMAL</span>
               <span className="text-xs text-white-600 block leading-tight">
-                Yayasan Antang Patahu Mahaga Lewu
+                Yayasan AntangPatahu Mahaga Lewu
               </span>
             </div>
             </div>
@@ -74,13 +74,21 @@ const Footer: React.FC = () => {
                 <MapPin className="h-4 w-4 text-emerald-400 mt-1 flex-shrink-0" />
                 <p className="text-sm">
                   Jl. Kwitang Raya No. 13 Gd. Graha Ketut Mas Agung Lt.4<br />
-                  Jakarta Pusat, 73112<br />
+                  Jakarta Pusat, 10340<br />
+                  Indonesia
+                </p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <MapPin className="h-4 w-4 text-emerald-400 mt-1 flex-shrink-0" />
+                <p className="text-sm">
+                  Jl. Temanggung Tilung III No 47<br />
+                  Palangka Raya, 73112<br />
                   Indonesia
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-emerald-400" />
-                <p className="text-sm">+62 536 1234 5678</p>
+                <p className="text-sm">+62 823 5173 2449</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-emerald-400" />
@@ -96,7 +104,7 @@ const Footer: React.FC = () => {
         <div className="container-custom py-4">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <p className="text-sm text-gray-400">
-              © 2025 Yayasan Antang Patahu Mahaga Lewu (AMAL). Seluruh hak cipta dilindungi. Develop by BobyMihing
+              © 2025 Yayasan AntangPatahu Mahaga Lewu (AMAL). Seluruh hak cipta dilindungi. Develop by BobyMihing
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-sm text-gray-400 hover:text-emerald-400 transition-colors">

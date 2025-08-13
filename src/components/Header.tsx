@@ -9,7 +9,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { cn } from "@/lib/utils";
+const cn = (...classes: string[]) => classes.filter(Boolean).join(' ');
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -116,7 +116,7 @@ const Header: React.FC = () => {
             to={href}
             className={cn(
               "block select-none space-y-1 rounded-lg p-4 leading-none no-underline outline-none transition-all duration-200 ease-out hover:bg-emerald-50/80 hover:text-emerald-700 focus:bg-emerald-50 focus:text-emerald-600 group",
-              className
+              className || ''
             )}
             {...props}
           >
@@ -187,7 +187,12 @@ const Header: React.FC = () => {
   return (
     <>
       {/* Ribbon Indonesia Colors */}
-      <div className="fixed w-full top-0 z-50 h-2 bg-gradient-to-r from-red-600 via-white via-blue-600 to-yellow-500"></div>
+      <div 
+        className="fixed w-full top-0 z-50 h-2"
+        style={{ 
+          background: 'linear-gradient(to right, #dc2626 0%, #dc2626 33%, #ffffff 33%, #ffffff 66%, #2563eb 66%, #2563eb 100%)' 
+        }}
+      ></div>
       
       <header 
         className={`fixed w-full top-2 z-50 transition-all duration-500 ${getHeaderClasses()}`}
@@ -199,7 +204,7 @@ const Header: React.FC = () => {
               <div className="flex-shrink-0">
                 <img 
                   src="https://i.ibb.co/g8nGrhX/logo6.png" 
-                  alt="Yayasan AMAL - Antang Patahu Mahaga Lewu" 
+                  alt="Yayasan AMAL - AntangPatahu Mahaga Lewu" 
                   className="h-14 sm:h-16 lg:h-20 w-auto transition-transform duration-200 group-hover:scale-105"
                 />
               </div>
@@ -208,7 +213,7 @@ const Header: React.FC = () => {
                   AMAL
                 </span>
                 <span className={`text-sm sm:text-base block leading-tight transition-all duration-200 font-medium ${isAtHero ? 'text-white/80' : 'text-gray-600'}`}>
-                  Yayasan Antang Patahu Mahaga Lewu
+                  Yayasan AntangPatahu Mahaga Lewu
                 </span>
               </div>
             </Link>

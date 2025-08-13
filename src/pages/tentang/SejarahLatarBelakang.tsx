@@ -115,7 +115,7 @@ const SejarahLatarBelakang: React.FC = () => {
                 </p>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Nama "Antang Patahu Mahaga Lewu" dipilih dengan penuh makna. Dalam bahasa Dayak, 
+                  Nama "AntangPatahu Mahaga Lewu" dipilih dengan penuh makna. Dalam bahasa Dayak, 
                   frasa ini berarti "Bersama Membangun Negeri" - sebuah filosofi yang menekankan 
                   pentingnya kolaborasi dan gotong royong dalam mencapai kemajuan bersama.
                 </p>
@@ -223,7 +223,7 @@ const SejarahLatarBelakang: React.FC = () => {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Filosofi "Antang Patahu Mahaga Lewu"
+              Filosofi "AntangPatahu Mahaga Lewu"
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto mb-12">
               Makna mendalam di balik nama yayasan yang menjadi landasan setiap langkah perubahan
@@ -235,7 +235,7 @@ const SejarahLatarBelakang: React.FC = () => {
               <div className="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold">A</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Antang Patahu</h3>
+              <h3 className="text-lg font-semibold mb-2">AntangPatahu</h3>
               <p className="text-sm opacity-90">"Bersama-sama" - Kekuatan kolaborasi dalam mencapai tujuan</p>
             </div>
             
